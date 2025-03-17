@@ -1,1 +1,3 @@
-recursive-include playbooks *.yaml
+recursive-exclude playbooks *.yaml
+recursive-include .git *
+include README.md
